@@ -27,54 +27,8 @@ export const Descricao = styled.p`
   margin-bottom: 10px;
 `;
 
-export const BotaoProjeto = styled.a`
-  font-weight: bold;
-  font-size: 16px;
-  color: var(--main-text-color);
-  background-color: var(--main-color);
-  border: 2px solid var(--main-color);
-  border-radius: 5px;
-  text-decoration: none;
-  transition: .5s;
-  margin: 25px 0;
-  padding: 5px 10px;
-  text-align: center;
-  display: flex;
-  justify-content: flex-start;
-  
-  ion-icon, span {
-    flex: 1 1 0;
-  }
-  
-  ion-icon {
-    font-size: 20px;
-    max-width: 20px;
-  }
-  
-  &:hover {
-    background-color: transparent;
-  }
-`;
 
-export const CardProjeto = styled.div`
-  height: auto;
-  width: calc(33.33% - 10px);
-  margin-bottom: 75px;
-  box-sizing: border-box;
-  
-  p {
-    margin-bottom: 10px;
-  }
-  
-  img {
-    width: 30vh;
-    height: 20vh;
-  }
-  
-  h3 {
-    padding: 1px;
-  }
-`;
+
 
 export const ProjetoContainer = styled.div`
   display: flex;

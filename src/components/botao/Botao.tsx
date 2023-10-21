@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiLink } from 'react-icons/fi';  // Importe o ícone desejado
+import { FiLink } from 'react-icons/fi';  
 import * as CSS from './BotaoStyle';
 
 interface Props {

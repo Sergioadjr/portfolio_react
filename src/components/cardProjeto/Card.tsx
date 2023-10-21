@@ -8,7 +8,7 @@ import java from "../../assets/icons/java.png";
 import node from "../../assets/icons/node-js.png";
 import mysql from "../../assets/icons/mysql.png";
 import postgres from "../../assets/icons/postgre.png";
-import react from "../../assets/icons/biblioteca.png";
+import react from "../../assets/icons/react.png";
 import flutter from "../../assets/icons/flutter.png";
 import django from "../../assets/icons/django.png";
 import spring from "../../assets/icons/springboot.png";

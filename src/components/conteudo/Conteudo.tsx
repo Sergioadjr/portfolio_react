@@ -43,7 +43,7 @@ const Conteudo = () => {
     return (
         <CSS.AboutContainer>
             <CSS.Nome>Sérgio Augusto David Júnior</CSS.Nome>
-            <CSS.Titulo>Desenvolvedor FullStack</CSS.Titulo>
+            <CSS.Titulo><CSS.Highlight>Desenvolvedor FullStack</CSS.Highlight></CSS.Titulo>
             <CSS.Descricao>Sou um desenvolvedor que está pronto para enfrentar desafios e criar soluções eficazes. </CSS.Descricao>
             <CSS.Descricao>
                 Atuo tanto no <CSS.Highlight>front </CSS.Highlight>como no <CSS.Highlight>back-end</CSS.Highlight>, e amo tecnologia, estudo todos os dias para me tornar cada vez

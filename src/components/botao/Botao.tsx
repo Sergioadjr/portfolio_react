@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiLink } from 'react-icons/fi';  
+import { VscLinkExternal } from 'react-icons/vsc';  
 import * as CSS from './BotaoStyle';
 
 interface Props {
@@ -13,9 +13,10 @@ const Botao: React.FC<Props> = ({ url }) => {
 
   return (
     <CSS.BotaoProjeto onClick={handleClick}>
-      <FiLink size={16} style={{ marginRight: '5px' }} /> Ver projeto
+      <VscLinkExternal size={16} style={{ marginRight: '5px' }} /> Ver projeto
     </CSS.BotaoProjeto>
   );
 }
 
 export default Botao;
+

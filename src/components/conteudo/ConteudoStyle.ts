@@ -27,9 +27,6 @@ export const Descricao = styled.p`
   margin-bottom: 10px;
 `;
 
-
-
-
 export const ProjetoContainer = styled.div`
   display: flex;
   flex-wrap: wrap;

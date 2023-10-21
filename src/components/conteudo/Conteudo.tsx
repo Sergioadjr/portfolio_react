@@ -7,6 +7,7 @@ import calculadora from "../../assets/gifs/calculadora_flutter.gif";
 import geradorQRCODE from "../../assets/gifs/gerador_qrcode.gif";
 import tabuada from "../../assets/gifs/tabuada_flutter.gif";
 import todoList from "../../assets/gifs/todo_list.gif";
+import Skills from '../skills/Skills';
 
 const Conteudo = () => {
     const projetos = [
@@ -78,6 +79,24 @@ const Conteudo = () => {
                 Minhas Skills:
             </CSS.SkillsTitle>
             <CSS.ProjetoContainer>
+                <CSS.SkillsBox>
+                    <Skills title="Front-end" categories={['HTML','CSS','JS']} />
+                </CSS.SkillsBox>
+                <CSS.SkillsBox>
+                    <Skills title="Back-end" categories={['JAVA','NODE']} />
+                </CSS.SkillsBox>
+                <CSS.SkillsBox>
+                    <Skills title="Databases" categories={['MYSQL','POSTGRES']} />
+                </CSS.SkillsBox>
+                <CSS.SkillsBox>
+                    <Skills title="Front-end Frameworks" categories={['REACT','FLUTTER']} />
+                </CSS.SkillsBox>
+                <CSS.SkillsBox>
+                    <Skills title="Back-end Frameworks" categories={['SPRING','DJANGO',]} />
+                </CSS.SkillsBox>
+                <CSS.SkillsBox>
+                    <Skills title="Tools" categories={['FIGMA','GITHUB','VSCODE']} />
+                </CSS.SkillsBox>
 
             </CSS.ProjetoContainer>
 

@@ -1,15 +1,20 @@
 import React from 'react';
+import { FiLink } from 'react-icons/fi';  // Importe o ícone desejado
+import * as CSS from './BotaoStyle';
 
 interface Props {
   url: string;
 }
 
 const Botao: React.FC<Props> = ({ url }) => {
+  const handleClick = () => {
+    window.open(url, '_blank'); // Abrir a URL em uma nova guia
+  };
+
   return (
-    <a href={url} id="btn-projects">
-      
-      <span>Ver projeto</span>
-    </a>
+    <CSS.BotaoProjeto onClick={handleClick}>
+      <FiLink size={16} style={{ marginRight: '5px' }} /> Ver projeto
+    </CSS.BotaoProjeto>
   );
 }
 

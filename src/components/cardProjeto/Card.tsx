@@ -65,7 +65,7 @@ function Card({ titulo, descricao, categorias, imgSrc, url }: Props) {
 
       </div>
 
-      {/* <Botao url={url} /> */}
+      <Botao url={url} />
 
     </CSS.CardProjeto>
   )

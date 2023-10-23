@@ -80,24 +80,23 @@ const Conteudo = () => {
             </CSS.SkillsTitle>
             <CSS.ProjetoContainer>
                 <CSS.SkillsBox>
-                    <Skills title="Front-end" categories={['HTML','CSS','JS']} />
+                    <Skills title="Front-end" categories={['HTML', 'CSS', 'JS']} />
                 </CSS.SkillsBox>
                 <CSS.SkillsBox>
-                    <Skills title="Back-end" categories={['JAVA','NODE']} />
+                    <Skills title="Back-end" categories={['JAVA', 'NODE']} />
                 </CSS.SkillsBox>
                 <CSS.SkillsBox>
-                    <Skills title="Databases" categories={['MYSQL','POSTGRES']} />
+                    <Skills title="Databases" categories={['MYSQL', 'POSTGRES']} />
                 </CSS.SkillsBox>
                 <CSS.SkillsBox>
-                    <Skills title="Front-end Frameworks" categories={['REACT','FLUTTER']} />
+                    <Skills title="Front-end Frameworks" categories={['REACT', 'FLUTTER']} />
                 </CSS.SkillsBox>
                 <CSS.SkillsBox>
-                    <Skills title="Back-end Frameworks" categories={['SPRING','DJANGO',]} />
+                    <Skills title="Back-end Frameworks" categories={['SPRING', 'DJANGO',]} />
                 </CSS.SkillsBox>
                 <CSS.SkillsBox>
-                    <Skills title="Tools" categories={['FIGMA','GITHUB','VSCODE']} />
+                    <Skills title="Tools" categories={['FIGMA', 'GITHUB', 'VSCODE']} />
                 </CSS.SkillsBox>
-
             </CSS.ProjetoContainer>
 
         </CSS.AboutContainer >

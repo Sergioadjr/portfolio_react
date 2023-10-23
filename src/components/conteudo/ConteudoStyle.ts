@@ -40,19 +40,13 @@ export const SkillsSectionTitle = styled.h2`
   font-size: 32px;
 `;
 
-export const SkillsContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 25px;
-`;
-
 export const SkillsBox = styled.div`
   flex: 1 1 33%;
   max-width: 33%;
   margin-bottom: 35px;
   
   i {
-    font-size: 45px;
+    font-size: 405px;
     margin-right: 10px;
   }
 `;

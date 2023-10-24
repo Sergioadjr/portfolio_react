@@ -19,12 +19,13 @@ npm install
 ```
 
 ## Como Usar
-Clone o repositório:
 
+Clone o repositório:
 ```bash
 git clone https://github.com/Sergioadjr/portfolio_react.git
-Navegue até o diretório do projeto:
+```
 
+Navegue até o diretório do projeto:
 ```bash
 cd Desktop
 ```

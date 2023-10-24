@@ -20,10 +20,17 @@ body {
 
 .container {
   display: flex;
+  flex-direction: row;
   color: var(--main-text-color);
+  
+  @media(max-width: 550px) {
+    flex-direction: column;
+  }
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

@@ -8,7 +8,7 @@ interface Props {
 
 const Botao: React.FC<Props> = ({ url }) => {
   const handleClick = () => {
-    window.open(url, '_blank'); // Abrir a URL em uma nova guia
+    window.open(url, '_blank'); 
   };
 
   return (

@@ -1,13 +1,27 @@
 import styled from 'styled-components';
 
-export const BioContainer = styled.div`
+export const  BioContainer = styled.div`
   flex: 1 1 20%;
   min-height: 100vh;
   background-color: var(--bio-bg-color);
   text-align: center;
   padding: 30px 12px;
   border-right: 5px solid var(--bio-border-color);
+
+  @media(max-width: 450px) {
+    min-height: auto;
+    border-right: none;
+    border-bottom: 5px solid var(--bio-border-color);
+    h2 {
+      display: none;
+    }
+    p {
+      max-width: 60%;
+      margin: 10px auto;
+    }
+  }
 `;
+
 export const BioHeading = styled.h2`
   margin-bottom: 25px;
 `;
@@ -16,12 +30,12 @@ export const BioParagraph = styled.p`
   margin-bottom: 20px;
 `;
 
-export const WelcomeText = styled.div`
-  font-weight: bold;
-`;
-
 export const Highlight = styled.span`
 color: var(--main-color);
+`;
+
+export const WelcomeText = styled.div`
+  font-weight: bold;
 `;
 
 export const BioImage = styled.img`
@@ -53,14 +67,12 @@ export const SocialLink = styled.a`
 export const EmailContainer = styled.div`
   display: flex;
   justify-content: center;
-  flex: 1 1 0;
   color: var(--main-color);
   font-size: 15px;
   margin-right: 5px;
 `;
 
 export const EmailLink = styled.a`
-  flex: 1 1 0;
   color: var(--main-text-color);
   text-decoration: none;
   max-width: 225px;

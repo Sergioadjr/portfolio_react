@@ -5,14 +5,15 @@ export const SkillsContainer = styled.div`
 `;
 
 export const SkillsTitle = styled.p`
-  font-size: 24px;
-  margin-bottom: 15px;
-  padding-left: 10px;
-  border-radius: 40px;
-  border-left: 5px solid var(--main-color);
+font-size: 24px;
+margin-bottom: 15px;
+padding-left: 10px;
+border-radius: 40px;
+border-left: 5px solid var(--main-color);
 `;
 
+
 export const SkillIcon = styled.img`
-  width: 45px;
-  margin-right: 15px;
+width: 45px;
+margin-right: 15px;
 `;

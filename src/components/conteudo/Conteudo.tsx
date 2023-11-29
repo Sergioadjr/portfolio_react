@@ -8,6 +8,7 @@ import geradorQRCODE from "../../assets/gifs/gerador_qrcode.gif";
 import tabuada from "../../assets/gifs/tabuada_flutter.gif";
 import todoList from "../../assets/gifs/todo_list.gif";
 import quiz from "../../assets/gifs/quiz.gif";
+import portfolio from "../../assets/gifs/portfolio.gif";
 import Skills from '../skills/Skills';
 
 const Conteudo = () => {
@@ -47,6 +48,13 @@ const Conteudo = () => {
             imgSrc: quiz,
             url: "https://github.com/Sergioadjr/show_milhao.git"
         },
+        // {
+        //     titulo: "Portfólio em react - responsivo",
+        //     descricao: "Tecnologias utilizadas:",
+        //     categorias: ["REACT"],
+        //     imgSrc: portfolio,
+        //     url: "https://github.com/Sergioadjr/portfolio_react"
+        // },
     ];
 
     return (

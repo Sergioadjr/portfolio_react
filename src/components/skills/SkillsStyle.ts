@@ -8,7 +8,6 @@ export const SkillsTitle = styled.p`
 font-size: 24px;
 margin-bottom: 15px;
 padding-left: 10px;
-border-radius: 40px;
 border-left: 5px solid var(--main-color);
 `;
 

@@ -8,7 +8,7 @@ export const  BioContainer = styled.div`
   padding: 30px 12px;
   border-right: 5px solid var(--bio-border-color);
 
-  @media(max-width: 450px) {
+  @media(max-width: 820px) {
     min-height: auto;
     border-right: none;
     border-bottom: 5px solid var(--bio-border-color);

@@ -6,7 +6,7 @@ export const AboutContainer = styled.div`
   background-color: var(--about-bg-color);
   padding: 50px;
 
-  @media(max-width: 450px) {
+  @media(max-width: 820px) {
     text-align: center;
     padding: 30px;
     .description {
@@ -31,6 +31,10 @@ export const Titulo = styled.h2`
 export const Descricao = styled.p`
   max-width: 75%;
   margin-bottom: 10px;
+  @media(max-width: 820px) {
+      max-width: 100%;
+      text-align: center;
+  }
 `;
 
 export const Highlight = styled.span`
@@ -41,6 +45,11 @@ export const ProjetoContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  
+  @media(max-width: 820px) {
+    text-align: center;
+    justify-content: center;
+}
 `;
 
 export const SkillsSectionTitle = styled.h2`

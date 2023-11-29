@@ -15,6 +15,7 @@ import spring from "../../assets/icons/springboot.png";
 import github from "../../assets/icons/github.png";
 import vscode from "../../assets/icons/vscode.png";
 import figma from "../../assets/icons/figma.png";
+import dart from "../../assets/icons/dart.png";
 import Botao from '../botao/Botao';
 
 interface Props {
@@ -37,6 +38,7 @@ const categoryIcons: CategoryIcons = {
   // Back
   JAVA: java,
   NODE: node,
+  DART: dart,
   // DB
   MYSQL: mysql,
   POSTGRES: postgres,

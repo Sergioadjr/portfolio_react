@@ -7,14 +7,15 @@ import calculadora from "../../assets/gifs/calculadora_flutter.gif";
 import geradorQRCODE from "../../assets/gifs/gerador_qrcode.gif";
 import tabuada from "../../assets/gifs/tabuada_flutter.gif";
 import todoList from "../../assets/gifs/todo_list.gif";
+import quiz from "../../assets/gifs/quiz.gif";
 import Skills from '../skills/Skills';
 
 const Conteudo = () => {
     const projetos = [
         {
-            titulo: "Calculadora",
+            titulo: "Calculadora - modelo IOS",
             descricao: "Tecnologias utilizadas:",
-            categorias: ["FLUTTER"],
+            categorias: ["FLUTTER", "DART"],
             imgSrc: calculadora,
             url: "https://github.com/Sergioadjr/calculadora-flutter"
         },
@@ -35,9 +36,16 @@ const Conteudo = () => {
         {
             titulo: "Gerador de Tabuada",
             descricao: "Tecnologias utilizadas:",
-            categorias: ["FLUTTER"],
+            categorias: ["FLUTTER", "DART"],
             imgSrc: tabuada,
             url: "https://github.com/Sergioadjr/tabuada-flutter.git"
+        },
+        {
+            titulo: "Quiz - Show do Serjão ",
+            descricao: "Tecnologias utilizadas:",
+            categorias: ["FLUTTER", "DART"],
+            imgSrc: quiz,
+            url: "https://github.com/Sergioadjr/show_milhao.git"
         },
     ];
 
@@ -83,7 +91,7 @@ const Conteudo = () => {
                     <Skills title="Front-end" categories={['HTML', 'CSS', 'JS']} />
                 </CSS.SkillsBox>
                 <CSS.SkillsBox>
-                    <Skills title="Back-end" categories={['JAVA', 'NODE']} />
+                    <Skills title="Back-end" categories={['JAVA', 'NODE', 'DART']} />
                 </CSS.SkillsBox>
                 <CSS.SkillsBox>
                     <Skills title="Databases" categories={['MYSQL', 'POSTGRES']} />

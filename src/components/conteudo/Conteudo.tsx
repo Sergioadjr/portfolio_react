@@ -5,6 +5,7 @@ import Card from '../cardProjeto/Card'
 // GIF'S
 import calculadora from "../../assets/gifs/calculadora_flutter.gif";
 import geradorQRCODE from "../../assets/gifs/gerador_qrcode.gif";
+import consultaCEP from "../../assets/gifs/consultaCEP.gif";
 import tabuada from "../../assets/gifs/tabuada_flutter.gif";
 import todoList from "../../assets/gifs/todo_list.gif";
 import quiz from "../../assets/gifs/quiz.gif";
@@ -14,6 +15,13 @@ import Skills from '../skills/Skills';
 
 const Conteudo = () => {
     const projetos = [
+        {
+            titulo: "Snake-Game",
+            descricao: "Tecnologias utilizadas:",
+            categorias: ["JAVA"],
+            imgSrc: snake,
+            url: "https://github.com/Sergioadjr/Snake-Game.git"
+        },
         {
             titulo: "Calculadora - modelo IOS",
             descricao: "Tecnologias utilizadas:",
@@ -43,11 +51,11 @@ const Conteudo = () => {
             url: "https://github.com/Sergioadjr/tabuada-flutter.git"
         },
         {
-            titulo: "Quiz - Show do Serjão ",
+            titulo: "Consulta de CEP - consumindo API",
             descricao: "Tecnologias utilizadas:",
-            categorias: ["FLUTTER", "DART"],
-            imgSrc: quiz,
-            url: "https://github.com/Sergioadjr/show_milhao.git"
+            categorias: ["JAVA"],
+            imgSrc: consultaCEP,
+            url: "https://github.com/Sergioadjr/consultaCEP.git"
         },
         {
             titulo: "Portfólio em react - responsivo",
@@ -57,11 +65,11 @@ const Conteudo = () => {
             url: "https://github.com/Sergioadjr/portfolio_react"
         },
         {
-            titulo: "Snake-Game",
+            titulo: "Quiz - Show do Serjão ",
             descricao: "Tecnologias utilizadas:",
-            categorias: ["JAVA"],
-            imgSrc: snake,
-            url: "https://github.com/Sergioadjr/Snake-Game.git"
+            categorias: ["FLUTTER", "DART"],
+            imgSrc: quiz,
+            url: "https://github.com/Sergioadjr/show_milhao.git"
         },
     ];
 

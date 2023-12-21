@@ -13,6 +13,6 @@ border-left: 5px solid var(--main-color);
 
 
 export const SkillIcon = styled.img`
-width: 45px;
+width: 40px;
 margin-right: 15px;
 `;

@@ -13,7 +13,7 @@ const Botao: React.FC<Props> = ({ url }) => {
 
   return (
     <CSS.BotaoProjeto onClick={handleClick}>
-      <VscLinkExternal size={16} style={{ marginRight: '5px' }} /> Ver projeto
+      <VscLinkExternal size={16} style={{ marginRight: '5px'}} /> Ver projeto
     </CSS.BotaoProjeto>
   );
 }

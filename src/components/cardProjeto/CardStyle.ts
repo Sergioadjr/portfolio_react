@@ -26,13 +26,14 @@ h3 {
 
 .categoria-icon {
   width: 25px;
-  height: 25px;
+  height: 22px;
   margin-top: 20px;
 }
 
 .alinhamento {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 8px;
 }
 `;
